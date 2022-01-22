@@ -16,6 +16,6 @@ services:
       - ./docker/db/my.cnf:/etc/mysql/conf.d/my.cnf
       - ./docker/db/sql:/docker-initdb
     ports:
-      - "3306:3306"
+      - 3306:3306
 
 
